@@ -8,7 +8,7 @@
 
 Name:           %(echo %real_name | tr '_' '-')
 Epoch:          1
-Version:        12.0.140
+Version:        12.1.66
 Release:        1%{?dist}
 Summary:        NVIDIA Tools Extension (NVTX) library
 License:        CUDA Toolkit
@@ -100,6 +100,9 @@ sed -i \
 %{_libdir}/pkgconfig/nvToolsExt.pc
 
 %changelog
+* Tue Apr 11 2023 Simone Caronni <negativo17@gmail.com> - 1:12.1.66-1
+- Update to 12.1.66.
+
 * Sat Feb 25 2023 Simone Caronni <negativo17@gmail.com> - 1:12.0.140-1
 - Update to 12.0.140.
 
