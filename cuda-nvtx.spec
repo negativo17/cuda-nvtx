@@ -62,7 +62,7 @@ sed -i \
 
 %files
 %license LICENSE
-%{_libdir}/libnvToolsExt.so.*
+%{_libdir}/libnvtx3interop.so.*
 
 %files devel
 %{_includedir}/nvToolsExtCuda.h
@@ -88,7 +88,7 @@ sed -i \
 %{_includedir}/nvtx3/nvtxDetail/nvtxInit.h
 %{_includedir}/nvtx3/nvtxDetail/nvtxLinkOnce.h
 %{_includedir}/nvtx3/nvtxDetail/nvtxTypes.h
-%{_libdir}/libnvToolsExt.so
+%{_libdir}/libnvtx3interop.so
 %{_libdir}/pkgconfig/nvToolsExt.pc
 
 %changelog
